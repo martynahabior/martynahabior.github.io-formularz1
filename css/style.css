@@ -1,0 +1,44 @@
+form {
+    background-color: beige;
+    margin-right: 800px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+}
+
+form select,
+form input[type='text'],
+form input[type='email'],
+form input[type='tel'],
+form textarea {
+    width: 300px;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+form label,
+form textarea {
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form label[for*='male'],
+form label[for='agreement'] {
+    display: inline-block;
+}
+
+form label[for='agreement'] {
+    padding-bottom: 20px;
+}
+
+form input[type='submit'] {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
